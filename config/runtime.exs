@@ -63,7 +63,7 @@ if config_env() == :prod do
   config :tunez, TunezWeb.Endpoint,
     server: true,
     url: [host: host, port: 443, scheme: "https"],
-    check_origin: ["tunez.applikasi.tech"],
+    check_origin: ["https://tunez.applikasi.tech"],
     http: [
       # Enable IPv6 and bind on all interfaces.
       # Set it to  {0, 0, 0, 0, 0, 0, 0, 1} for local network only access.
